@@ -1,0 +1,27 @@
+/* App-specific custom CSS that doesn't fit neatly into Tailwind config */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hide scrollbar when in full screen earth/loading phases */
+body:has(> #root > div.fixed.inset-0) {
+  overflow: hidden;
+}
+
+/* Ensure Leaflet popups fit the dark theme perfectly */
+.leaflet-popup-content {
+  margin: 12px !important;
+  line-height: 1.4;
+}
+
+.leaflet-popup-close-button {
+  color: #94a3b8 !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #e2e8f0 !important;
+}
