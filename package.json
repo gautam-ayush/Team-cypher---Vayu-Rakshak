@@ -1,0 +1,22 @@
+{
+  "name": "team-cypher-vayu-rakshak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vayu Rakshak — AI-Powered Personalized Weather & AQI Health Advisory System",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "install:all": "npm --prefix frontend install"
+  },
+  "keywords": [
+    "aqi",
+    "weather",
+    "health",
+    "advisory",
+    "gemini",
+    "threejs"
+  ],
+  "author": "Team Cypher",
+  "license": "MIT"
+}
